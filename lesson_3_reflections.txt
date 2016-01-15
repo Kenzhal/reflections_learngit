@@ -3,3 +3,10 @@ When would you want to create a remote repository rather than keeping all your w
 -collaborate with others
 -keep a backup of your code online
 -working on multiple machines, for example a mobile device and a computer
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+-sometimes changes require multiple commits but are only publishable once completed
+--> work localy and then push on GitHub
+-pulling manually is important so that your treestructure is not accidentally altered by contributors working on the same
