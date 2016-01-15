@@ -10,3 +10,24 @@ How is the staging area different from the working directory and the repository?
 -in the staging area I define the files I want to commit with the next commit-command
  so it's like "selecting" them
 -the staging area is different from the repository because you cannot compare files that are only staged
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+-if by any chance you made more than one logical change in your working directory you can just add 
+ the files containing the logical changes one at a time to the stage area, commiting each time
+-check before commiting what changes exactly there are in the staged files with "git diff --staged"
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-the result is a new commit for the branch you executed the command of
+-we represent it in that way because it has 2 parents and the git log command would give the changes from everyone
+ of the parent branches
+ 
+ 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+-pros: no typos, fast, elegant
+-cons: easy to mess up codingstructure
+--> object orientated programing is great for that
