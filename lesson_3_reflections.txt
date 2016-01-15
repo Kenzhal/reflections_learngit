@@ -1,1 +1,5 @@
+When would you want to create a remote repository rather than keeping all your work local?
 
+-collaborate with others
+-keep a backup of your code online
+-working on multiple machines, for example a mobile device and a computer
