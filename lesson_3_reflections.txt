@@ -17,3 +17,15 @@ Describe the differences between forks, clones, and branches. When would you use
 -forks are clones from GitHub to Github without dependency, aka not transmitting changes (but mentioning the author)
 -clone can be from Github to local or from local to local
 -branch is within one repository
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+-you can continue working a little longer in a time that you don't have access to your remote
+-for example on a plane
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+-maybe through mail -->tedious!
+-or through google drive -->hard to merge files and easily navigate
