@@ -29,3 +29,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 -maybe through mail -->tedious!
 -or through google drive -->hard to merge files and easily navigate
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If you were working alone on a more or less linear proyect it would be sufficient to work in master branch.
+But if you are collaborating in a public proyect it is better practice to work on a branch.
+That way you can always pull changes into your local master branch, merging the changes locally, pushing your
+branch to origin/branchS and then sending a pull-request to merge them to origin/master
