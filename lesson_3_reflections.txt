@@ -10,3 +10,10 @@ Why might you want to always pull changes manually rather than having Git automa
 -sometimes changes require multiple commits but are only publishable once completed
 --> work localy and then push on GitHub
 -pulling manually is important so that your treestructure is not accidentally altered by contributors working on the same
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+-forks are clones from GitHub to Github without dependency, aka not transmitting changes (but mentioning the author)
+-clone can be from Github to local or from local to local
+-branch is within one repository
