@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+-git creates a metadatafile .git but doesn't perform an initial commit
+-no files are tracked by default
+-to tell git which files it should track, otherwise it would need to track ALL the data on the PC
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-in the staging area I define the files I want to commit with the next commit-command
+ so it's like "selecting" them
+-the staging area is different from the repository because you cannot compare files that are only staged

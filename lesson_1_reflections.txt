@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+-less lines to check for typos
+-but: it was harder to understand the programming structure because only a short section was visible
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+-less time spent on bug searching
+-if one piece of code runs faster or slower than it did before you can easily revert back and forth and check speed
+ at the same time identifying the differences easily
+ 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+-logical changes
+-commit comment to better use the commits later on for version control
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+-sometimes it makes sense to track multiple file
+ because a logical change might result out of multiple smaller changes in seperate files (html and css file)
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+-git log shows a log (big surprise) of the commits in the repository with their commit-comment
+-git log --stat shows a more detailed log, including the files that were edited and the number of added and removed lines
+-git diff takes two arguments (two commit IDs) and returns the difference between the two snapshots of the repository
+
+
+How might using version control make you more confident to make changes that could break something?
+
+-I can confidently make radical changes because it is easy to revert back
+-I can create a different branch for each of the changes I want to implement --> great for comparing the different methods
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+-I want to use it regularily in my coding
+-learn to program Android Apps
